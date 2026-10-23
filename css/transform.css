@@ -1,0 +1,27 @@
+div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  height: auto;
+}
+
+.s1 {
+  width: 300px;
+  height: 300px;
+  border: red solid 1em;
+  transform: rotate(180deg) skew(-10deg);
+}
+.s2 {
+  width: 300px;
+  height: 300px;
+  border: grey solid 1em;
+  transform: rotate(45deg) scale(2.5);
+  transform-origin: 0 100%;
+}
+.s3 {
+  width: 300px;
+  height: 300px;
+  border: yellow solid 1em;
+  transform: rotate(90deg) scale(0.5);
+  transform-origin: 100% 0;
+}

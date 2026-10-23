@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+}
+.outer_container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  width: 100vw;
+  height: 100vh;
+  gap: 10px;
+  position: relative;
+}
+.text_on_top {
+  height: 100%;
+  a {
+    height: 100%;
+  }
+  &:hover div {
+    z-index: 2;
+    transform: rotate(-25deg);
+  }
+}
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.text_on_top {
+  display: grid;
+  z-index: 2;
+}
+.text_on_top > * {
+  grid-area: 1/1;
+  place-self: center;
+  text-align: center;
+}
+.blo {
+  &:hover {
+    filter: contrast(500%);
+    transform: rotate(-15deg);
+  }
+}
+.cit {
+  &:hover {
+    filter: contrast(300%);
+    transform: rotate(15deg);
+  }
+}
+.fin {
+  &:hover {
+    filter: contrast(300%) hue-rotate(200deg);
+    transform: rotate(-15deg);
+  }
+}
+.for {
+  &:hover {
+    filter: invert(300%);
+    transform: rotate(15deg);
+  }
+}
+.gra {
+  &:hover {
+    filter: brightness(150%) hue-rotate(140deg);
+    transform: rotate(-15deg);
+  }
+}
+.lim {
+  &:hover {
+    filter: hue-rotate(290deg) saturate(180%);
+    transform: rotate(15deg);
+  }
+}
+.man {
+  &:hover {
+    filter: contrast(2000%);
+    transform: rotate(-15deg);
+  }
+}
+.pas {
+  &:hover {
+    filter: contrast(200%) hue-rotate(140deg);
+    transform: rotate(15deg);
+  }
+}
+.rad {
+  &:hover {
+    filter: grayscale(100%) contrast(250%);
+    transform: rotate(-15deg);
+  }
+}
+.rød {
+  &:hover {
+    filter: hue-rotate(300deg) saturate(150%);
+    transform: rotate(15deg);
+  }
+}

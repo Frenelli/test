@@ -1,0 +1,32 @@
+/*div {
+  width: 200px;
+  aspect-ratio: 1/1;
+  background-color: grey;
+  transition: transform 0.6s;
+}
+div:hover {
+  transform: translateX(100%);
+}*/
+
+div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  height: auto;
+}
+.agurkesalat {
+  width: 300px;
+  height: 300px;
+}
+.kage {
+  width: 300px;
+  height: 300px;
+}
+.nudler {
+  width: 300px;
+  height: 300px;
+}
+.sammensætning {
+  width: 300px;
+  height: 300px;
+}
